@@ -9,6 +9,18 @@ used_leaves = 0
 remaining_leaves = total_leaves
 
 while True:
+    
+    name = input("please enter your good name: ")
+
+  
+
+      
+    
+    if not name.isalpha():
+        
+        print("please enter your name correctly")
+        
+        continue
 
     print("\n===== EMPLOYEE LEAVE MANAGEMENT =====")
 
